@@ -15,7 +15,7 @@ describe('When opening the browser', () => {
     it('run first test', () => {
         homePage.navigateTo().then(() => {
             homePage.setName('sander').then(() => {
-                expect(homePage.getGreetingText()).toEqual('Hello sanderr!');
+                expect(homePage.getGreetingText()).toEqual('Hello sander!');
             });
         });
     });
