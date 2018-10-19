@@ -1,4 +1,5 @@
 var SpecReporter = require('jasmine-spec-reporter').SpecReporter;
+var HtmlReporter = require('protractor-beautiful-reporter');
 
 global.DEFAULTTIMEOUT = 10000;
 
@@ -38,6 +39,10 @@ exports.config = {
             displayFailureSpec: true,
             displaySuiteNumber: true,
             displaySpecDuration: true
-        }))
+        }));
+
+        jasmine.getEnv().addReporter(new HtmlReporter({
+            baseDirectory: 'C:/reporter/'
+        }).getJasmine2Reporter());
     }
 };

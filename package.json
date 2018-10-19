@@ -14,8 +14,10 @@
     "fs": "0.0.1-security",
     "jasmine": "^3.2.0",
     "jasmine-spec-reporter": "^4.2.1",
+    "jasmine2-reporter": "^1.0.1",
     "lint": "^1.1.2",
     "protractor": "^5.4.1",
+    "protractor-beautiful-reporter": "^1.2.5",
     "ts-node": "^7.0.1",
     "typescript": "^3.1.3"
   }
